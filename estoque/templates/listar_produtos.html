@@ -9,17 +9,17 @@
 </head>
 
 <body>
-    <br>
-     
-    <br>
+    <nav class="d-flex justify-content-between align-items-center border border-secondary p-4 bg-light">
+        <h1 class="fs-5 mt-3 ms-3">Produtos</h1>
+        <a class="btn btn-secondary" href="http://127.0.0.1:8000/estoque/cadastrar_produto/">Voltar</a>
+    </nav>
     <div class="container">
 
-        <form class="d-flex gap-1 align-items-center" action="{% url 'listar_produtos' %}" method="GET">
-            <label for="">Nome</label>
-            <input type="text" name="nome">
+        <form class="d-flex gap-1 align-items-center justify-content-center" action="{% url 'listar_produtos' %}" method="GET">
+            <label for="">Nome</label><br><br>
+            <input type="text" name="nome" class=" form-control"><br><br>
             <br><br>
             <input class="btn btn-primary" type="submit" value="Filtrar">
-            <a class="btn btn-secondary" href="http://127.0.0.1:8000/estoque/cadastrar_produto/">Voltar</a>
         </form>
 
         <table class="table">
