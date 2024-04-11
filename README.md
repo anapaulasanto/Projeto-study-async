@@ -1,5 +1,4 @@
 <h1 align="center">Sistema de cadastro de produtos</h1>
- <p align="center"> Projeto de um sistema de cadastro e listagem de produtos </p>
 
  <div align="center">
  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
@@ -15,8 +14,12 @@
   <br>
   <img alt="banner" title="banner" src="./images/banner2.png">
 </div>
+
+> Projeto de um sistema de cadastro e listagem de produtos
+
+<br>
   
-<h3>Autor</h3>
+<h2>💻Autor</h2>
 
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/149811410?s=400&u=bb09c5d7f36aed097c3d8654b8d445ee587ed4b1&v=4" width="100px;" alt=""/>
  <br />
